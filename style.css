@@ -6,3 +6,36 @@ a:link {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
 a:active {text-decoration: none;}
+@media screen and (min-width: 1025){
+	iframe{
+		width: 1000px;
+		height: 500px;
+	}
+	table{
+		width: 1000px;
+		height: 300px;
+	}
+}
+@media screen and (min-width: 960px) and (max-width: 1024px){
+	iframe{
+		width: 930px;
+		height: 400px;
+	}
+	table{
+		width: 900px;
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 959px){
+	iframe{
+		width: 770px;
+		height: 400px;
+	}
+	table{
+		width: 770px;
+	}
+	td{
+		display: block;
+		width: 770px;
+		height: 50px;
+	}
+}
